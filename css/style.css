@@ -6,11 +6,21 @@
 
 /* //header  */
 
-/* header{
-      position: fixed;
-      z-index: 10;
-      width: 100%;
-  }  */
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+header .header_content {
+  width: 100%;
+}
+
+header .navbar {
+  padding: 15px 25px 15px 45px;
+}
 
 .navbar .navbar-brand {
   font-weight: 700;
@@ -53,13 +63,17 @@ header .navbar-nav .nav-item .dropdown-item.active .text {
   color: #189a46;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .header_content {
     max-width: 1229px;
   }
-}
+} */
 
 /* //carousel */
+
+.carousel {
+  margin-top: 77px;
+}
 
 .carousel-inner .carousel-item img {
   /* lấy hình ảnh từ vị trí mik muốn :top , right, bottom, left  */
@@ -132,15 +146,34 @@ header .navbar-nav .nav-item .dropdown-item.active .text {
   color: #189a46;
 }
 
+.carousel-item .carousel_content .button .bnt:hover {
+  color: #189a46;
+  background-color: #fff;
+}
+
+.carousel .carousel-indicators {
+  align-items: center;
+}
+
 .carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: white;
+  opacity: 1;
+  margin-right: 15px;
 }
 
-.carousel .carousel-indicators .action {
+.carousel .carousel-indicators li.active {
   background: #189a46;
   width: 30px;
   height: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 0;
+  border: none;
+}
+
+a.readMoreBtn:hover {
+  background-color: white;
+  color: #28a745 !important;
 }
