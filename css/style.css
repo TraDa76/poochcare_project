@@ -177,3 +177,43 @@ a.readMoreBtn:hover {
   background-color: white;
   color: #28a745 !important;
 }
+
+/* //about */
+
+#about .about_content {
+  margin: 48px 15px;
+  text-align: center;
+  padding: 0 12rem;
+}
+
+.about_content .title h6 {
+  color: #f53626;
+  font-weight: 400;
+}
+
+.about_content .title h1 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.about_content .title p {
+  font-size: 1.2rem;
+  color: #696969;
+}
+
+.about_content a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 4;
+}
+
+.about_content a.read {
+  border-bottom: 2px solid #189a46;
+  transition: all 0.3s;
+}
+
+.about_content a:hover {
+  color: #189a46;
+}
