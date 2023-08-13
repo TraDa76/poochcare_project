@@ -186,17 +186,18 @@ a.readMoreBtn:hover {
   padding: 0 12rem;
 }
 
-.about_content .title h6 {
+.title h6 {
   color: #f53626;
+  font-size: 18px;
   font-weight: 400;
 }
 
-.about_content .title h1 {
+.title h1 {
   font-weight: 600;
   line-height: 1.2;
 }
 
-.about_content .title p {
+.title p {
   font-size: 1.2rem;
   color: #696969;
 }
@@ -237,4 +238,46 @@ a.readMoreBtn:hover {
 
 .counter_item h5 {
   color: #d1ebda;
+}
+
+/* //offer */
+
+#offer {
+  margin-bottom: 40px;
+}
+
+.offer_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer_inner .offer_img img {
+  width: 95%;
+  border-radius: 10px;
+}
+
+.offer_content {
+  width: 55%;
+  margin-top: 10rem;
+}
+
+.offer_content .title p {
+  font-size: 1rem;
+  margin: 15px 0 35px 0;
+}
+
+.offer_item ul {
+  list-style: none;
+}
+
+.offer_item ul li i {
+  color: #189a46;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.offer_item ul li span {
+  font-weight: 600;
+  line-height: 2.5;
+  color: black;
 }
