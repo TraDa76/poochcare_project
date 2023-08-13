@@ -200,6 +200,7 @@ a.readMoreBtn:hover {
 .title p {
   font-size: 1.2rem;
   color: #696969;
+  margin: 15px 0 15px 0;
 }
 
 .about_content a {
@@ -274,10 +275,56 @@ a.readMoreBtn:hover {
   color: #189a46;
   vertical-align: middle;
   margin-right: 10px;
+  background: rgb(147 107 232 / 6%);
+  border-radius: 50%;
+  padding: 8px;
 }
 
 .offer_item ul li span {
   font-weight: 600;
   line-height: 2.5;
   color: black;
+}
+
+/* //gallery */
+
+.gallery_content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.gallery_content .title {
+  text-align: center;
+}
+
+.gallery_content .title p {
+  margin: 15px 0 35px 0;
+}
+
+.radius-image {
+  border-radius: 10px;
+}
+
+.play-view {
+  left: 0;
+  right: 0;
+  top: 22.5%;
+}
+
+.video-play-icon {
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  transition: 0.3s ease-in-out;
+}
+
+.video-play-icon:hover {
+  transform: scale(1.1);
+}
+
+.video-play-icon i {
+  color: #189a46;
 }
