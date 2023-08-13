@@ -217,3 +217,24 @@ a.readMoreBtn:hover {
 .about_content a:hover {
   color: #189a46;
 }
+
+/* //counter */
+
+.color_counter {
+  background: #189a46;
+}
+
+.counter_item {
+  text-align: center;
+}
+
+.counter_item h1 {
+  line-height: 2;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+
+.counter_item h5 {
+  color: #d1ebda;
+}
