@@ -303,6 +303,9 @@ a.readMoreBtn:hover {
 }
 
 /* payment */
+.payment{
+  background-color: #6969690f;
+}
 .payment .title {
   text-align: center;
 }
@@ -310,6 +313,21 @@ a.readMoreBtn:hover {
 .payment .title h3 {
   color: #f53626;
 }
+
+.payment .list-group-item{
+  border: none;
+}
+
+.list-group .links{
+  list-style: none;
+}
+
+.list-group .links li{
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.582);
+}
+
 
 /* //offer */
 
