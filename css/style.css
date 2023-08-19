@@ -27,6 +27,10 @@ header .navbar {
   font-size: 34px;
 }
 
+header .collapse {
+  margin-left: 395px;
+}
+
 header .collapse .navbar-nav .nav-item .nav-link {
   color: black;
   font-size: 19px;
@@ -305,10 +309,14 @@ a.readMoreBtn:hover {
   border-radius: 10px;
 }
 
+.gallery_inner {
+  margin-top: 40px;
+}
+
 .play-view {
   left: 0;
   right: 0;
-  top: 22.5%;
+  top: calc(50% - 40px);
 }
 
 .video-play-icon {
@@ -319,6 +327,22 @@ a.readMoreBtn:hover {
   height: 55px;
   line-height: 55px;
   transition: 0.3s ease-in-out;
+
+  animation-name: ripple;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgb(15 162 66 / 16%), 0 0 0 10px rgb(15 162 67 / 25%),
+      0 0 0 20px rgb(15 162 67 / 25%);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25),
+      0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+  }
 }
 
 .video-play-icon:hover {
